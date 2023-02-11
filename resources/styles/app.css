@@ -1,0 +1,12 @@
+.wp-block[data-align=wide] {
+  max-width: 1920px !important
+}
+
+.wp-block {
+  max-width: 1920px !important
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+

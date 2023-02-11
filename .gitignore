@@ -1,0 +1,9 @@
+node_modules
+vendor
+.env
+.idea
+composer.lock
+package-lock.json
+public/languages
+public/plugins
+public/mu-plugins

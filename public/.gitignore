@@ -1,0 +1,8 @@
+mu-plugins/*
+!mu-plugins/advanced-custom-fields-pro
+!mu-plugins/wordpress-seo
+!mu-plugins/mu-plugins.php
+!plugins/index.php
+upgrade
+uploads
+wordpress
