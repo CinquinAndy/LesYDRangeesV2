@@ -64,12 +64,7 @@
 <div class="w-full py-10 text-center text-yd_purple-800 text-xs uppercase">
     <a class="link-animation font-bold" href="<?= esc_url(get_permalink(get_page_by_title('Politique de confidentialité'))) ?>" rel="noopener">Mentions Légales</a>
     <p>
-        Developed by <a class="link-animation font-bold" href="https://www.malt.fr/profile/andycinquin/" rel="noopener noreferrer">Andy CINQUIN</a>
-        & Designed by
-<!--        <a-->
-<!--            class="link-animation font-bold" href="#" rel="noopener">-->
-<!--        </a>-->
-            Pauline GOUVERNET
+        Developed by <a class="link-animation font-bold" href="https://andy-cinquin.fr" rel="noopener">Andy CINQUIN</a>
     </p>
 </div>
 <div class="w-full flex justify-center items-center">
