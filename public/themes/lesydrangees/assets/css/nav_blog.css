@@ -1,0 +1,147 @@
+nav ._logo {
+  filter: saturate(1.5) brightness(0.5) contrast(1.5)
+}
+
+nav.scrolled ._logo {
+  filter: none
+}
+
+.nav {
+  height: 90px;
+  width: 100%;
+  background: rgba(2, 10, 13, 0);
+  backdrop-filter: blur(0);
+  transition: all ease-in-out 0.6s
+}
+
+.nav.scrolled {
+  background: rgba(2, 10, 13, 0.9);
+  backdrop-filter: blur(10px)
+}
+
+.nav > .nav-header {
+  display: inline
+}
+
+.nav * {
+  color: #dbf4ff;
+  transition: all ease-in-out .3s
+}
+
+.nav a:hover, .nav a:hover * {
+  color: #020a0d;
+  fill: #020a0d
+}
+
+.nav #navLinks a._yd_not_active::after {
+  position: absolute;
+  content: '';
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #020a0d;
+  opacity: 0;
+  transform: scale(0);
+  transition: all ease-in-out 0.3s;
+  z-index: 40
+}
+
+.nav #navLinks a:hover::after {
+  opacity: 1;
+  transform: scale(1)
+}
+
+.nav ._yd_active {
+  padding: 10px
+}
+
+.nav ._yd_active::after {
+  position: absolute;
+  content: '';
+  mask: url("../images/arabesque.svg") center center;
+  -webkit-mask: url("../images/arabesque.svg") center center;
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  top: -40px;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  transition: all ease-in-out 0.3s;
+  transition-delay: 0.1s;
+  z-index: 40;
+  background-color: #020a0d;
+  opacity: 0
+}
+
+.nav ._yd_active:hover:after {
+  background-color: #020a0d;
+  opacity: 1
+}
+
+@media screen and (min-width: 1024px) {
+  .nav {
+    height: 100px
+  }
+
+  .nav * {
+    color: #0d2835;
+    transition: all ease-in-out .3s
+  }
+}
+
+.nav.scrolled * {
+  color: #dbf4ff;
+  transition: all ease-in-out .3s
+}
+
+.nav.scrolled a:hover, .nav.scrolled a:hover * {
+  color: #75d3ff;
+  fill: #75d3ff
+}
+
+.nav.scrolled #navLinks a._yd_not_active:after {
+  position: absolute;
+  content: '';
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #75d3ff;
+  opacity: 0;
+  transform: scale(0);
+  transition: all ease-in-out 0.3s;
+  z-index: 40
+}
+
+.nav.scrolled #navLinks a:hover:after {
+  opacity: 1;
+  transform: scale(1)
+}
+
+.nav.scrolled #navLinks a._yd_active::after {
+  position: absolute;
+  content: '';
+  mask: url("../images/arabesque.svg") center center;
+  -webkit-mask: url("../images/arabesque.svg") center center;
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  top: -40px;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  transition: all ease-in-out 0.3s;
+  transition-delay: 0.1s;
+  z-index: 40;
+  background-color: #dbf4ff;
+  opacity: 0
+}
+
+.nav.scrolled #navLinks ._yd_active:hover:after {
+  background-color: #75d3ff;
+  opacity: 1
+}

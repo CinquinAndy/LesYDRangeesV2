@@ -1,0 +1,10 @@
+._yd_contact_background {
+  background-image: url("../images/drive/shannon-s-vwwURFt-HNk-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+._yd_contact_background > div {
+  backdrop-filter: brightness(0.7) contrast(1.1) saturate(1.1)
+}

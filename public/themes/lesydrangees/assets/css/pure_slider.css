@@ -1,0 +1,87 @@
+.slider {
+  width: 640px;
+  position: relative;
+  padding-top: 320px
+}
+
+.slider > ._big {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.5s
+}
+
+.slider input[name='slide_switch'] {
+  display: none
+}
+
+.slider label {
+  margin: 20px 0 0 22px;
+  float: left;
+  cursor: pointer;
+  transition: opacity ease-in-out 0.3s;
+  opacity: 0.6
+}
+
+.slider label img {
+  display: block
+}
+
+.slider input[name='slide_switch']:checked + label {
+  border: 2px solid;
+  border-image: -webkit-linear-gradient(#842de1, #27aae7) 2 stretch;
+  opacity: 1;
+  z-index: 10
+}
+
+.slider input[name='slide_switch'] ~ ._big {
+  opacity: 0;
+  z-index: -10
+}
+
+.slider input[name='slide_switch']:checked + label + ._big {
+  opacity: 1;
+  z-index: 10
+}
+
+._btn_arrow_left {
+  outline: none
+}
+
+._btn_arrow_left:focus {
+  border: none;
+  outline: none
+}
+
+._btn_arrow_right {
+  outline: none
+}
+
+._btn_arrow_right:focus {
+  border: none;
+  outline: none
+}
+
+@media only screen and (max-width: 768px) {
+  .slider label {
+    margin: 22px 0 0 12px;
+    float: left;
+    cursor: pointer;
+    transition: opacity ease-in-out 0.3s;
+    opacity: 0.6
+  }
+
+  #id1 + label {
+    margin: 22px 0 0 44px;
+    float: left;
+    cursor: pointer;
+    transition: opacity ease-in-out 0.3s;
+    opacity: 0.6
+  }
+
+  .slider {
+    width: 310px;
+    position: relative;
+    padding-top: 310px
+  }
+}

@@ -1,0 +1,113 @@
+._yd-gradient-textColor-adjust-on-logo {
+  background: -webkit-linear-gradient(#6a11cb, #27aae7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px #0000;
+  display: block
+}
+
+._yd-gradient-textColor-adjust-on-logo-alt {
+  background: -webkit-linear-gradient(left, #6a11cb, #27aae7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px #0000;
+  display: block
+}
+
+._yd-gradient-textColor-adjust-on-logo-alt-brightness {
+  background: -webkit-linear-gradient(left, #665199, #37b3eb);
+  font-family: Playfair Display SC Bold, serif;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 10px #020a0d);
+  text-shadow: 0px 0px #0000;
+  display: block
+}
+
+._yd-gradient-textcolor-50 {
+  background: -webkit-linear-gradient(#ede3f7, #dbf4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px #0000;
+  display: block
+}
+
+._yd-gradient-textcolor-100 {
+  background: -webkit-linear-gradient(#d3c0e7, #a8e4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px #0000;
+  display: block
+}
+
+._yd-gradient-textcolor-200 {
+  background: -webkit-linear-gradient(#b994e0, #75d3ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px #0000;
+  display: block
+}
+
+._yd-gradient-textcolor-300 {
+  background: -webkit-linear-gradient(#9f62df, #4cc0f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px #0000;
+  display: block
+}
+
+._yd-gradient-textcolor-400 {
+  background: -webkit-linear-gradient(#842de1, #27aae7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px #0000;
+  display: block
+}
+
+._yd-gradient-textcolor-400-alt {
+  background: -webkit-linear-gradient(#842de1 -130%, #27aae7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px #0000;
+  display: block
+}
+
+._yd-gradient-textcolor-500 {
+  background: -webkit-linear-gradient(#6a11cb, #218aba);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px #0000;
+  display: block
+}
+
+._yd-gradient-textcolor-600 {
+  background: -webkit-linear-gradient(#5104a4, #226787);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px #0000;
+  display: block
+}
+
+._yd-gradient-textcolor-700 {
+  background: -webkit-linear-gradient(#390372, #1d4558);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px #0000;
+  display: block
+}
+
+._yd-gradient-textcolor-800 {
+  background: -webkit-linear-gradient(#200241, #0d2835);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px #0000;
+  display: block
+}
+
+._yd-gradient-textcolor-900 {
+  background: -webkit-linear-gradient(#07000f, #020a0d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px #0000;
+  display: block
+}

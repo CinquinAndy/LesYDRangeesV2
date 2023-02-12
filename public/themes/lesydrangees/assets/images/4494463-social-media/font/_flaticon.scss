@@ -1,0 +1,161 @@
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+.fimanager:before {
+    display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.flaticon-001-facebook:before { content: "\f100"; }
+.flaticon-002-twitter:before { content: "\f101"; }
+.flaticon-003-skype:before { content: "\f102"; }
+.flaticon-004-youtube:before { content: "\f103"; }
+.flaticon-005-instagram:before { content: "\f104"; }
+.flaticon-006-vimeo:before { content: "\f105"; }
+.flaticon-007-whatsapp:before { content: "\f106"; }
+.flaticon-008-linkedin:before { content: "\f107"; }
+.flaticon-009-reddit:before { content: "\f108"; }
+.flaticon-010-tumblr:before { content: "\f109"; }
+.flaticon-011-yahoo:before { content: "\f10a"; }
+.flaticon-012-messenger:before { content: "\f10b"; }
+.flaticon-013-groupme:before { content: "\f10c"; }
+.flaticon-014-kik:before { content: "\f10d"; }
+.flaticon-015-vkontakte:before { content: "\f10e"; }
+.flaticon-016-soundcloud:before { content: "\f10f"; }
+.flaticon-017-imo:before { content: "\f110"; }
+.flaticon-018-line:before { content: "\f111"; }
+.flaticon-019-quora:before { content: "\f112"; }
+.flaticon-020-digg:before { content: "\f113"; }
+.flaticon-021-xing:before { content: "\f114"; }
+.flaticon-022-blogger:before { content: "\f115"; }
+.flaticon-023-9gag:before { content: "\f116"; }
+.flaticon-024-wechat:before { content: "\f117"; }
+.flaticon-025-yelp:before { content: "\f118"; }
+.flaticon-026-deviantart:before { content: "\f119"; }
+.flaticon-027-gab:before { content: "\f11a"; }
+.flaticon-028-reverbnation:before { content: "\f11b"; }
+.flaticon-029-twitch:before { content: "\f11c"; }
+.flaticon-030-meetme:before { content: "\f11d"; }
+.flaticon-031-dribble:before { content: "\f11e"; }
+.flaticon-032-stumbleupon:before { content: "\f11f"; }
+.flaticon-033-foursquare:before { content: "\f120"; }
+.flaticon-034-kickstarter:before { content: "\f121"; }
+.flaticon-035-swift:before { content: "\f122"; }
+.flaticon-036-disqus:before { content: "\f123"; }
+.flaticon-037-meetup:before { content: "\f124"; }
+.flaticon-038-taringa:before { content: "\f125"; }
+.flaticon-039-etsy:before { content: "\f126"; }
+.flaticon-040-kakao-talk:before { content: "\f127"; }
+.flaticon-041-wattpad:before { content: "\f128"; }
+.flaticon-042-lastfm:before { content: "\f129"; }
+.flaticon-043-social-media:before { content: "\f12a"; }
+.flaticon-044-airbnb:before { content: "\f12b"; }
+.flaticon-045-odnoklassniki:before { content: "\f12c"; }
+.flaticon-046-angelist:before { content: "\f12d"; }
+.flaticon-047-orkut:before { content: "\f12e"; }
+.flaticon-048-behance:before { content: "\f12f"; }
+.flaticon-049-busuu:before { content: "\f130"; }
+.flaticon-050-envato:before { content: "\f131"; }
+.flaticon-051-evernote:before { content: "\f132"; }
+.flaticon-052-forrst:before { content: "\f133"; }
+.flaticon-053-gofundme:before { content: "\f134"; }
+.flaticon-054-goodreads:before { content: "\f135"; }
+.flaticon-055-houzz:before { content: "\f136"; }
+.flaticon-056-klout:before { content: "\f137"; }
+.flaticon-057-periscope:before { content: "\f138"; }
+.flaticon-058-sina-weibo:before { content: "\f139"; }
+.flaticon-059-discord:before { content: "\f13a"; }
+.flaticon-060-git:before { content: "\f13b"; }
+.flaticon-061-github:before { content: "\f13c"; }
+.flaticon-062-google-allo:before { content: "\f13d"; }
+.flaticon-063-academia-edu:before { content: "\f13e"; }
+
+$font-Flaticon-001-facebook: "\f100";
+$font-Flaticon-002-twitter: "\f101";
+$font-Flaticon-003-skype: "\f102";
+$font-Flaticon-004-youtube: "\f103";
+$font-Flaticon-005-instagram: "\f104";
+$font-Flaticon-006-vimeo: "\f105";
+$font-Flaticon-007-whatsapp: "\f106";
+$font-Flaticon-008-linkedin: "\f107";
+$font-Flaticon-009-reddit: "\f108";
+$font-Flaticon-010-tumblr: "\f109";
+$font-Flaticon-011-yahoo: "\f10a";
+$font-Flaticon-012-messenger: "\f10b";
+$font-Flaticon-013-groupme: "\f10c";
+$font-Flaticon-014-kik: "\f10d";
+$font-Flaticon-015-vkontakte: "\f10e";
+$font-Flaticon-016-soundcloud: "\f10f";
+$font-Flaticon-017-imo: "\f110";
+$font-Flaticon-018-line: "\f111";
+$font-Flaticon-019-quora: "\f112";
+$font-Flaticon-020-digg: "\f113";
+$font-Flaticon-021-xing: "\f114";
+$font-Flaticon-022-blogger: "\f115";
+$font-Flaticon-023-9gag: "\f116";
+$font-Flaticon-024-wechat: "\f117";
+$font-Flaticon-025-yelp: "\f118";
+$font-Flaticon-026-deviantart: "\f119";
+$font-Flaticon-027-gab: "\f11a";
+$font-Flaticon-028-reverbnation: "\f11b";
+$font-Flaticon-029-twitch: "\f11c";
+$font-Flaticon-030-meetme: "\f11d";
+$font-Flaticon-031-dribble: "\f11e";
+$font-Flaticon-032-stumbleupon: "\f11f";
+$font-Flaticon-033-foursquare: "\f120";
+$font-Flaticon-034-kickstarter: "\f121";
+$font-Flaticon-035-swift: "\f122";
+$font-Flaticon-036-disqus: "\f123";
+$font-Flaticon-037-meetup: "\f124";
+$font-Flaticon-038-taringa: "\f125";
+$font-Flaticon-039-etsy: "\f126";
+$font-Flaticon-040-kakao-talk: "\f127";
+$font-Flaticon-041-wattpad: "\f128";
+$font-Flaticon-042-lastfm: "\f129";
+$font-Flaticon-043-social-media: "\f12a";
+$font-Flaticon-044-airbnb: "\f12b";
+$font-Flaticon-045-odnoklassniki: "\f12c";
+$font-Flaticon-046-angelist: "\f12d";
+$font-Flaticon-047-orkut: "\f12e";
+$font-Flaticon-048-behance: "\f12f";
+$font-Flaticon-049-busuu: "\f130";
+$font-Flaticon-050-envato: "\f131";
+$font-Flaticon-051-evernote: "\f132";
+$font-Flaticon-052-forrst: "\f133";
+$font-Flaticon-053-gofundme: "\f134";
+$font-Flaticon-054-goodreads: "\f135";
+$font-Flaticon-055-houzz: "\f136";
+$font-Flaticon-056-klout: "\f137";
+$font-Flaticon-057-periscope: "\f138";
+$font-Flaticon-058-sina-weibo: "\f139";
+$font-Flaticon-059-discord: "\f13a";
+$font-Flaticon-060-git: "\f13b";
+$font-Flaticon-061-github: "\f13c";
+$font-Flaticon-062-google-allo: "\f13d";
+$font-Flaticon-063-academia-edu: "\f13e";

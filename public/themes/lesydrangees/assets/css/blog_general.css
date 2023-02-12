@@ -1,0 +1,31 @@
+.gridArticle {
+  display: grid;
+  grid-template-columns:repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem
+}
+
+._yd_blog_article_card_background {
+  background: -webkit-linear-gradient(rgba(211, 192, 231, 0.9), rgba(77, 192, 246, 0.9))
+}
+
+.gridArticle > a {
+  padding: 1.5rem;
+  border-radius: 1rem
+}
+
+.gridArticle > a .arrow {
+  filter: grayscale(1) brightness(1);
+  transition: all ease-in-out .3s
+}
+
+.gridArticle > a:hover .arrow {
+  filter: brightness(0.7)
+}
+
+@media (min-width: 768px) {
+  .gridArticle {
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 2rem
+  }
+}

@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+.fimanager:before {
+      display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    display: block;
+}
+
+.flaticon-001-facebook:before { content: "\f100"; }
+.flaticon-002-twitter:before { content: "\f101"; }
+.flaticon-003-skype:before { content: "\f102"; }
+.flaticon-004-youtube:before { content: "\f103"; }
+.flaticon-005-instagram:before { content: "\f104"; }
+.flaticon-006-vimeo:before { content: "\f105"; }
+.flaticon-007-whatsapp:before { content: "\f106"; }
+.flaticon-008-linkedin:before { content: "\f107"; }
+.flaticon-009-reddit:before { content: "\f108"; }
+.flaticon-010-tumblr:before { content: "\f109"; }
+.flaticon-011-yahoo:before { content: "\f10a"; }
+.flaticon-012-messenger:before { content: "\f10b"; }
+.flaticon-013-groupme:before { content: "\f10c"; }
+.flaticon-014-kik:before { content: "\f10d"; }
+.flaticon-015-vkontakte:before { content: "\f10e"; }
+.flaticon-016-soundcloud:before { content: "\f10f"; }
+.flaticon-017-imo:before { content: "\f110"; }
+.flaticon-018-line:before { content: "\f111"; }
+.flaticon-019-quora:before { content: "\f112"; }
+.flaticon-020-digg:before { content: "\f113"; }
+.flaticon-021-xing:before { content: "\f114"; }
+.flaticon-022-blogger:before { content: "\f115"; }
+.flaticon-023-9gag:before { content: "\f116"; }
+.flaticon-024-wechat:before { content: "\f117"; }
+.flaticon-025-yelp:before { content: "\f118"; }
+.flaticon-026-deviantart:before { content: "\f119"; }
+.flaticon-027-gab:before { content: "\f11a"; }
+.flaticon-028-reverbnation:before { content: "\f11b"; }
+.flaticon-029-twitch:before { content: "\f11c"; }
+.flaticon-030-meetme:before { content: "\f11d"; }
+.flaticon-031-dribble:before { content: "\f11e"; }
+.flaticon-032-stumbleupon:before { content: "\f11f"; }
+.flaticon-033-foursquare:before { content: "\f120"; }
+.flaticon-034-kickstarter:before { content: "\f121"; }
+.flaticon-035-swift:before { content: "\f122"; }
+.flaticon-036-disqus:before { content: "\f123"; }
+.flaticon-037-meetup:before { content: "\f124"; }
+.flaticon-038-taringa:before { content: "\f125"; }
+.flaticon-039-etsy:before { content: "\f126"; }
+.flaticon-040-kakao-talk:before { content: "\f127"; }
+.flaticon-041-wattpad:before { content: "\f128"; }
+.flaticon-042-lastfm:before { content: "\f129"; }
+.flaticon-043-social-media:before { content: "\f12a"; }
+.flaticon-044-airbnb:before { content: "\f12b"; }
+.flaticon-045-odnoklassniki:before { content: "\f12c"; }
+.flaticon-046-angelist:before { content: "\f12d"; }
+.flaticon-047-orkut:before { content: "\f12e"; }
+.flaticon-048-behance:before { content: "\f12f"; }
+.flaticon-049-busuu:before { content: "\f130"; }
+.flaticon-050-envato:before { content: "\f131"; }
+.flaticon-051-evernote:before { content: "\f132"; }
+.flaticon-052-forrst:before { content: "\f133"; }
+.flaticon-053-gofundme:before { content: "\f134"; }
+.flaticon-054-goodreads:before { content: "\f135"; }
+.flaticon-055-houzz:before { content: "\f136"; }
+.flaticon-056-klout:before { content: "\f137"; }
+.flaticon-057-periscope:before { content: "\f138"; }
+.flaticon-058-sina-weibo:before { content: "\f139"; }
+.flaticon-059-discord:before { content: "\f13a"; }
+.flaticon-060-git:before { content: "\f13b"; }
+.flaticon-061-github:before { content: "\f13c"; }
+.flaticon-062-google-allo:before { content: "\f13d"; }
+.flaticon-063-academia-edu:before { content: "\f13e"; }
