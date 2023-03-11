@@ -72,7 +72,8 @@
 </div>
 <div class="w-full py-10 text-center text-yd_purple-600 text-lg uppercase">
     <p class="text-sm">
-        ©2021 par Les YD rangées SAS - Tous droits réservés
+<!--        get date -->
+        ©<?php echo date("Y"); ?> par Les YD rangées SAS - Tous droits réservés
     </p>
 </div>
 <script src="<?= get_theme_file_uri('assets/app.js') ?>" async></script>
