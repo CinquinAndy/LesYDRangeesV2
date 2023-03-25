@@ -121,60 +121,11 @@ function traitement_formulaire_contact()
                             }
                         }
 
-                        $email_message = "
-                            <html>
-                            <body>
-                            <div style = 'overflow: hidden;' >
-                            <font size = '-1' >
-                            <u ></u >
-                            <div style = 'margin:0;padding:10px 0' bgcolor = '#ffffff' marginwidth = '0' marginheight = '0' >
-                            <br >
-                            <table border = '0' width = '100%' height = '100%' cellpadding = '0' cellspacing = '0' bgcolor = '#ffffff' >
-                            <tbody ><tr > <td align = 'center' valign = 'top' bgcolor = '#ffffff' style = 'background-color:#ffffff' >
-                            <table border = '0' width = '600' cellpadding = '0' cellspacing = '0' bgcolor = '#ffffff' > <tbody ><tr >
-                            <td bgcolor = '#ffffff' style = 'background-color:#ffffff;padding-left:30px;padding-right:30px;font-size:14px;line-height:20px;font-family:Helvetica,sans-serif;color:#333' >
-                            <div style = 'text-align:center;margin-bottom:10px;margin-top:20px' >
-                            <img alt = ' ' height = '60' width = '250' style = 'height:60px;width:250px'
-                            src = 'https://lesydrangees.com/themes/lesydrangees/assets/images/logo.svg' >
-                            </a >
-                            </div >
-                            Récapitulatif du mail en provenance de https://lesydrangees.com/ :
-                            <br ><br >
-                            Nom / Prénom : " . $name . "
-                            <br>
-                            Ville : " . $ville . "
-                            <br>
-                            mail : <a style = 'font-style:italic;color:#627BDF'
-                            href = 'mailto:" . $mail . "'>
-                            " . $mail . "
-                            </a >
-                            <br>
-                            Tél : " . $tel . "
-                            <br>
-                            <br>
-                            Message :
-                            <br>
-                            <div style = 'text-align:center' >
-                            <font color = '#888888' >
-                            " . $message . "
-                            <br></font>
-                            <br>
-                            <br>
-                            </td>
-                            </tr>
-                            </tbody>
-                            </table>
-                            </td>
-                            </tr>
-                            </tbody>
-                            </table>
-                            <br>
-                            <br>
-                            </div>
-                            </font>
-                            </div>
-                            </body>
-                            </html>";
+                        $email_message = "Nom / Prénom : " . $name . "
+                            \nVille : " . $ville . "
+                            \nmail : ". $mail . "
+                            \nTél : " . $tel . "
+                            \nMessage : " . $message;
 
 
                         $secret_mail_private = env("WP_MAILGUN_PRIVATE", "");
