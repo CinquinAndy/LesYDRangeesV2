@@ -27,8 +27,8 @@
         "roots/bedrock-autoloader": "1.0.4",
         "roots/wp-password-bcrypt": "1.1.0",
         "symfony/http-client": "^6.2",
-        "symfony/http-foundation": "v6.2.8",
-        "symfony/var-dumper": "v6.2.8",
+        "symfony/http-foundation": "v6.2.10",
+        "symfony/var-dumper": "v6.2.10",
         "vinkla/extended-acf": "13.3.0",
         "vlucas/phpdotenv": "v5.5.0"
     },
