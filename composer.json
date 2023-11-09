@@ -20,7 +20,7 @@
         "ext-curl": "*",
         "ext-json": "*",
         "composer/installers": "2.2.0",
-        "johnpbloch/wordpress-core": "6.4.0",
+        "johnpbloch/wordpress-core": "6.4.1",
         "johnpbloch/wordpress-core-installer": "2.0",
         "mailgun/mailgun-php": "^3.5",
         "nyholm/psr7": "^1.5",
