@@ -42,3 +42,5 @@ RUN a2enmod headers
 ENV PORT 80
 EXPOSE 80
 CMD ["apache2ctl", "-D", "FOREGROUND"]
+
+RUN composer install
