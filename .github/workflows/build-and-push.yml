@@ -16,6 +16,11 @@ jobs:
           node-version: 18.x
       - name: Npm install
         run: npm install
+      - name: Use PHP 8.2
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.2
+          extensions: intl, zip, pdo, pdo_mysql, bcmath, gd, exif, pcntl, opcache, imagick, xdebug
       - name: Composer install
         run: composer install
       - name: Login to Docker Hub
