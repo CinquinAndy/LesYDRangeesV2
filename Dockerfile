@@ -1,4 +1,4 @@
-FROM debian:bookworm-20230202 as builder
+FROM debian:bookworm-20230202
 
 WORKDIR /usr/app
 COPY ./ ./
@@ -26,8 +26,6 @@ RUN apt install -y lsb-release ca-certificates apt-transport-https software-prop
 RUN npm install
 RUN composer install
 RUN npm run build
-
-FROM builder as production
 
 RUN sed -ri -e 's!/var/www/html!/usr/app/public!g' /etc/apache2/sites-available/*.conf
 RUN sed -ri -e 's!/var/www/!/usr/app/public!g' /etc/apache2/apache2.conf /etc/apache2/conf-available/*.conf
