@@ -21,6 +21,7 @@
     <?php if (is_page('contact')) : ?>
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <?php endif; ?>
+    <script defer src="https://umami.wadefade.fr/script.js" data-website-id="e48de112-94c4-4672-a395-7969447f8b8e"></script>
 </head>
 <body <?php (is_home() || is_single()) ?
     body_class([
