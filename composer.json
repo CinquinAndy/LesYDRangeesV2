@@ -22,7 +22,7 @@
         "composer/installers": "2.2.0",
         "johnpbloch/wordpress-core": "6.4.3",
         "johnpbloch/wordpress-core-installer": "2.0",
-        "mailgun/mailgun-php": "^3.5",
+        "mailgun/mailgun-php": "^4.0",
         "nyholm/psr7": "^1.5",
         "roots/bedrock-autoloader": "1.0.4",
         "roots/wp-password-bcrypt": "1.1.0",
