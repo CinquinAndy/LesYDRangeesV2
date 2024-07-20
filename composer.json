@@ -30,7 +30,7 @@
         "symfony/http-foundation": "v6.3.2",
         "symfony/var-dumper": "v6.3.2",
         "vinkla/extended-acf": "13.8.0",
-        "vlucas/phpdotenv": "v5.6.0"
+        "vlucas/phpdotenv": "v5.6.1"
     },
     "config": {
         "optimize-autoloader": true,
