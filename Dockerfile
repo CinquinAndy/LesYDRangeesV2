@@ -31,6 +31,23 @@ RUN sed -ri -e 's!/var/www/html!/usr/app/public!g' /etc/apache2/sites-available/
 RUN sed -ri -e 's!/var/www/!/usr/app/public!g' /etc/apache2/apache2.conf /etc/apache2/conf-available/*.conf
 RUN sed -ri -e 's!AllowOverride None!AllowOverride All!g' /etc/apache2/apache2.conf
 
+RUN chown www-data:www-data /usr/app/public
+RUN chmod -R 755 /usr/app/public
+# run if not exist /usr/app/public/plugins
+RUN mkdir -p /usr/app/public/plugins
+RUN chown www-data:www-data /usr/app/public/plugins
+RUN chmod -R 755 /usr/app/public/plugins
+
+# run if not exist /usr/app/public/uploads
+RUN mkdir -p /usr/app/public/uploads
+RUN chown www-data:www-data /usr/app/public/uploads
+RUN chmod -R 755 /usr/app/public/uploads
+
+# run if not exist /usr/app/public/mu-plugins
+RUN mkdir -p /usr/app/public/mu-plugins
+RUN chown www-data:www-data /usr/app/public/mu-plugins
+RUN chmod -R 755 /usr/app/public/mu-plugins
+
 RUN a2enmod rewrite
 RUN a2enmod headers
 
