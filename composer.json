@@ -29,7 +29,7 @@
         "symfony/http-client": "^6.2",
         "symfony/http-foundation": "v6.3.2",
         "symfony/var-dumper": "v6.3.2",
-        "vinkla/extended-acf": "13.8.0",
+        "vinkla/extended-acf": "14.6.2",
         "vlucas/phpdotenv": "v5.6.3"
     },
     "config": {
