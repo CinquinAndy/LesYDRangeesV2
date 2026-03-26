@@ -1,4 +1,4 @@
-FROM debian:bookworm-20230202
+FROM debian:bookworm-20260316
 
 WORKDIR /usr/app
 COPY ./ ./
